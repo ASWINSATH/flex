@@ -1,0 +1,23 @@
+.row{
+    width: 100%;
+    height: 500px;
+    /* background - color: gray; */
+    display: flex;
+    /* add horizontal spacing to chind */
+    
+    justify-content: space-evenly;
+
+    /* add vertical spacing to chind */
+    align-items: center;
+}
+.col{
+    width: 360px;
+    height: 450px;
+    background-color: darkolivegreen;
+    border: 2px solid black;
+}
+body{
+    background: url(./img/Ela-Sadya-400x266.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
